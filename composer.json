@@ -1,0 +1,21 @@
+{
+    "name": "rostyslav/logger",
+    "description": "logger",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "logger\\main\\": "main/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rostyslav.Kibkalo",
+            "email": "rostislav.kibkalo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/log": "^1.1"
+    }
+}
